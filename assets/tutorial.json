@@ -1,0 +1,50 @@
+[
+ {
+  "title": "🧭 Visão geral",
+  "text": "O Lyra Study junta organização de estudos e gamificação.\n\nABAS\n• PDFs — explorador de pastas com seus materiais.\n• Foco e Loja — cronômetro de estudo e a Lyra City (sua metrópole).\n• Cronograma — grade semanal calculada para você + lista de tarefas.\n• Revisão — flashcards com repetição espaçada.\n• Desempenho — metas, nota do mês, simulados e análise.\n\nNO TOPO\n• ✦ Lyra Study (clique no logo) — Modo Memória: fotos da cidade, métricas e simulados de cada ano concluído.\n• ⭐ pontos e nível (1 nível a cada 5 h de foco). Os pontos são a moeda da loja da cidade.\n\nTodos os tempos aparecem como \"2h e 30 min\"."
+ },
+ {
+  "title": "⏱ Foco, pontos e metas",
+  "text": "• Escolha a matéria e inicie o foco. Modo Pomodoro (regressivo, com pausas) ou Progressivo (contagem livre) — botão \"Configurar timer\".\n• PONTOS pela SUA meta: completar 100% da meta diária rende 100 pontos (proporcional ao tempo estudado). O que passar da meta rende só 25% do ritmo, até +100% da meta. Bater a meta da semana (7 × meta diária) dá +100. Quanto maior a sua meta, menos cada minuto vale — a evolução é medida pelo cumprimento da meta, não pelo tempo bruto.\n• O XP do prédio em foco segue a mesma lógica: 160 XP por meta diária batida.\n• META DO DIA: definida no Cronograma (horas por dia). Quando você bate a meta, o dia está CONCLUÍDO e a cidade ganha um quadrado novo.\n• ESTUDO GERAL (sem matéria específica) conta automaticamente para a Meta do Dia — o total do dia soma todas as matérias e o Estudo Geral.\n• Dias seguidos sem bater a meta (a partir do 2º) geram penalidade de pontos (veja em Desempenho)."
+ },
+ {
+  "title": "🏙 A cidade",
+  "text": "A cidade cresce com os dias em que você bate a meta.\n\n• 1 dia concluído = 1 quadrado (rua, iluminação e uma fundação).\n• 7 dias fundem-se em 1 Quadrado de SEMANA (3×3). 4 semanas = 1 Quadrado de MÊS (6×6). 12 meses = o Quadrado do ANO: 12 blocões numa grade 4×3.\n• Onde cada mês, semana e dia aparece é sorteado (e fica salvo: o mapa não muda ao reabrir).\n• Ao fechar o ano, uma foto do mapa e as métricas são guardadas (Modo Memória) e o mapa recomeça limpo.\n\nVISÕES (topo do mapa): Dia, Semana, Mês e Ano. A câmera é fixa: o mapa é enquadrado sozinho.\nBOTÕES: 🛒 Loja (compras) e ⚙ Funções (território, modo foco, fluxo automático e quadrado selecionado). Ambos abrem por cima do mapa; ✕ ou Esc fecham.\nClique num quadrado do mapa para selecioná-lo (ele aparece em Funções)."
+ },
+ {
+  "title": "🏢 Prédios e níveis",
+  "text": "• O catálogo tem 9 modelos de prédio; 2 são grátis e os outros são comprados na Loja com pontos.\n• Cada modelo evolui por níveis (3 ou 4, conforme o modelo) e o desenho muda a cada nível.\n• O XP do estudo vai para o PRÉDIO EM FOCO (Funções → Modo Foco). Subir do nível n para n+1 custa 100×n XP.\n• Ao chegar ao nível máximo, o foco passa sozinho ao próximo prédio que ainda evolui; o prédio em foco continua o mesmo entre os dias.\n• FLUXO AUTOMÁTICO (Funções): constrói sozinho em cada novo dia o modelo escolhido; com \"Prédio do dia aleatório\" o modelo é sorteado entre os que você já tem.\n• Fundação livre: selecione o quadrado e escolha o prédio (ou 🎲 aleatório)."
+ },
+ {
+  "title": "🌳 Praças",
+  "text": "As metas das praças valem para o MÊS e reiniciam todo mês:\n• 1 hora de estudo no mês → libera a Praça dos Bancos.\n• 1 dia concluído no mês → libera a Praça da Fonte.\n• 7 dias concluídos no mês → libera a Praça Jardim Real.\nCada liberação ergue uma praça num lote sorteado do mapa.\n\nCom 2 ou mais praças liberadas no mês, surge uma praça nova (aleatória) a cada 5 dias concluídos. Sem lote livre, a praça espera a próxima semana abrir lotes.\nAo virar o mês, o progresso e o acesso reiniciam, mas as praças já construídas continuam no mapa.\nNa Loja → Praças você vê as metas e escolhe o estilo das praças novas."
+ },
+ {
+  "title": "🚗 Veículos e ruas",
+  "text": "• Há asfalto em toda a grade, com setas de mão única, separando prédios e praças.\n• Os carros circulam pelas ruas em um sentido só e não colidem entre si; passam por trás dos prédios.\n• São 6 modelos: 2 grátis e 4 premium (Loja → Veículos). Cidades pequenas têm poucos carros; o tráfego cresce com o mapa."
+ },
+ {
+  "title": "🗓 Cronograma",
+  "text": "O assistente pergunta: matérias, horas por dia, quantas matérias por dia e a dificuldade de cada uma (1 a 5). Então calcula:\n1) soma todos os pesos (dificuldades);\n2) meta diária × 7 = horas da semana (em minutos);\n3) minutos da semana ÷ soma dos pesos = minutos por ponto de peso;\n4) minutos por ponto × peso da matéria = minutos semanais daquela matéria.\nDepois distribui as matérias nos 7 dias: cada dia recebe o número de matérias que você escolheu e os dias que sobram recebem uma a mais; matérias mais difíceis aparecem em mais dias.\nA lista de tarefas (Hoje / Semana) acompanha a grade. 🔄 Reajustar usa os últimos 3 simulados."
+ },
+ {
+  "title": "📝 Simulados",
+  "text": "Desempenho → Simulados → ➕ Registrar simulado.\n1) Dados da prova: NOME (ex.: ITA 2025) e QUANTIDADE MÁXIMA de questões; marque as matérias que caíram (pode digitar matérias novas).\n2) Por matéria: questões, acertos, anuladas e, das anuladas, quantas você tinha marcado como acerto. O TOTAL DE ACERTOS da prova é a soma automática dos acertos por matéria. A soma das questões das matérias tem de ser IGUAL ao máximo da prova.\n\nANULADAS: a questão anulada deixa de existir. O teto da matéria cai exatamente no número de anuladas e os acertos marcados nelas são abatidos.\nExemplo: 20 questões, 3 anuladas, 9 acertos incluindo as 3 anuladas → vale 6 acertos em 17.\n\nPESOS: se a prova tem pesos diferentes por matéria, ligue \"A prova possui pesos diferentes\" e digite o peso de cada uma. A nota geral vira uma média ponderada e o cronograma passa a priorizar peso × taxa de erro.\nANEXOS: anexe PDFs, fotos de redações, provas rabiscadas. Ficam guardados para sempre na pasta \"anexos\" (ao lado do app) e podem ser abertos ou baixados a qualquer momento — a virada do ano não apaga nada.\nHistórico: busque por nome e navegue pelas abas (10 simulados por aba). No Modo Memória (clique no logo) veja os simulados e anexos de cada ano."
+ },
+ {
+  "title": "🔄 Reajuste do cronograma",
+  "text": "Depois de registrar um simulado o app sugere novas dificuldades (1 a 5) usando ESTRITAMENTE os últimos 3 simulados:\n• nota média de cada matéria (0 a 10) → taxa de erro;\n• prioridade = taxa de erro × peso da matéria na prova (sem pesos, só o erro);\n• dificuldade = 1 + 4 × prioridade (máx. 5), com ±0,5 se a nota caiu ou subiu bastante.\nMatérias que valem mais e onde você mais erra ganham mais minutos na grade. Você vê as mudanças e decide: \"Aceita a Nova Grade?\".\nSem simulados há mais de 1 mês, um aviso aparece em Desempenho recomendando revisar as dificuldades."
+ },
+ {
+  "title": "📊 Desempenho e nota do mês",
+  "text": "• Metas de hoje e da semana, matérias pendentes e penalidades do ano.\n• NOTA DO MÊS (0 a 10): cumprimento de metas (40%) + constância, que é a fração de dias com pelo menos metade da meta (30%) + resultados dos 3 últimos simulados (30%). Sem simulados, o peso se divide entre metas e constância.\n• Visão Mês: progresso acumulado, ritmo, calendário colorido e tempo por matéria. Visão Simulados: evolução, busca e histórico."
+ },
+ {
+  "title": "📚 PDFs e 🧠 Revisão",
+  "text": "PDFs: abra pastas e subpastas, volte pela trilha, crie/remova pastas (removidas vão para _Removidas), mova PDFs entre pastas e marque \"Estudado\".\nRevisão: crie cartões (texto e imagens), organize por matéria › categoria › subcategoria e estude: Errei / Difícil / Bom / Fácil reagendam a próxima revisão."
+ },
+ {
+  "title": "💾 Seus dados",
+  "text": "Tudo fica ao lado do programa:\n• data.json — progresso, cidade, simulados e histórico anual.\n• anexos/ — arquivos anexados aos simulados.\n• snapshots/ — fotos PNG exportadas do Modo Memória.\n• PDFs/ e Imagens/ — seus materiais e imagens dos flashcards.\nPara fazer backup ou trocar de computador, copie essa pasta inteira."
+ }
+]

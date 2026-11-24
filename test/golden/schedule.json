@@ -1,0 +1,5884 @@
+[
+ {
+  "subjects": {
+   "Redação": 1,
+   "Química": 1,
+   "Inglês": 4,
+   "Português": 3,
+   "História": 1,
+   "Matemática": 1,
+   "Biologia": 3,
+   "Física": 3,
+   "Geografia": 4,
+   "Filosofia": 3
+  },
+  "dailyH": 0.5,
+  "perDay": 1,
+  "weekly": {
+   "Redação": 9,
+   "Química": 9,
+   "Inglês": 35,
+   "Português": 26,
+   "História": 9,
+   "Matemática": 9,
+   "Biologia": 26,
+   "Física": 26,
+   "Geografia": 35,
+   "Filosofia": 26
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 26
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 35
+    },
+    {
+     "subject": "Física",
+     "minutes": 26
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 26
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Redação",
+     "minutes": 9
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 35
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 9
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 26
+    },
+    {
+     "subject": "História",
+     "minutes": 9
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 9
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Matemática": 4,
+   "Redação": 5,
+   "Biologia": 1,
+   "Física": 3,
+   "Geografia": 4
+  },
+  "dailyH": 4.25,
+  "perDay": 5,
+  "weekly": {
+   "Matemática": 420,
+   "Redação": 525,
+   "Biologia": 105,
+   "Física": 315,
+   "Geografia": 420
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 60
+    },
+    {
+     "subject": "Redação",
+     "minutes": 75
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 5,
+   "Português": 5,
+   "Inglês": 3,
+   "Geografia": 3,
+   "Matemática": 3,
+   "História": 2
+  },
+  "dailyH": 0.5,
+  "perDay": 3,
+  "weekly": {
+   "Filosofia": 50,
+   "Português": 50,
+   "Inglês": 30,
+   "Geografia": 30,
+   "Matemática": 30,
+   "História": 20
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 10
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "História",
+     "minutes": 10
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 10
+    },
+    {
+     "subject": "História",
+     "minutes": 10
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Redação": 2,
+   "Biologia": 2,
+   "História": 4,
+   "Matemática": 4,
+   "Inglês": 5,
+   "Geografia": 2,
+   "Química": 4
+  },
+  "dailyH": 0.5,
+  "perDay": 2,
+  "weekly": {
+   "Redação": 18,
+   "Biologia": 18,
+   "História": 37,
+   "Matemática": 37,
+   "Inglês": 46,
+   "Geografia": 18,
+   "Química": 37
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 16
+    },
+    {
+     "subject": "Química",
+     "minutes": 19
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Redação",
+     "minutes": 9
+    },
+    {
+     "subject": "História",
+     "minutes": 19
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 19
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 15
+    },
+    {
+     "subject": "Química",
+     "minutes": 18
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 9
+    },
+    {
+     "subject": "História",
+     "minutes": 18
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 15
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 18
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 18
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 3,
+   "Português": 3,
+   "Biologia": 5,
+   "Química": 3,
+   "Filosofia": 4
+  },
+  "dailyH": 1.5,
+  "perDay": 5,
+  "weekly": {
+   "Física": 105,
+   "Português": 105,
+   "Biologia": 175,
+   "Química": 105,
+   "Filosofia": 140
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 15
+    },
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 25
+    },
+    {
+     "subject": "Química",
+     "minutes": 15
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 20
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "História": 1,
+   "Biologia": 2,
+   "Matemática": 1,
+   "Inglês": 1,
+   "Física": 3,
+   "Redação": 1,
+   "Português": 4
+  },
+  "dailyH": 6,
+  "perDay": 2,
+  "weekly": {
+   "História": 194,
+   "Biologia": 388,
+   "Matemática": 194,
+   "Inglês": 194,
+   "Física": 582,
+   "Redação": 194,
+   "Português": 775
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 194
+    },
+    {
+     "subject": "Português",
+     "minutes": 196
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "História",
+     "minutes": 97
+    },
+    {
+     "subject": "Português",
+     "minutes": 193
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 194
+    },
+    {
+     "subject": "Física",
+     "minutes": 194
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 194
+    },
+    {
+     "subject": "Português",
+     "minutes": 193
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "História",
+     "minutes": 97
+    },
+    {
+     "subject": "Física",
+     "minutes": 194
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 194
+    },
+    {
+     "subject": "Português",
+     "minutes": 193
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 194
+    },
+    {
+     "subject": "Redação",
+     "minutes": 194
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Redação": 3,
+   "Biologia": 3,
+   "Inglês": 5,
+   "Filosofia": 3
+  },
+  "dailyH": 2.5,
+  "perDay": 1,
+  "weekly": {
+   "Redação": 225,
+   "Biologia": 225,
+   "Inglês": 375,
+   "Filosofia": 225
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 188
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Redação",
+     "minutes": 113
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 113
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 187
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 112
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 112
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 225
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 5,
+   "Filosofia": 2,
+   "Biologia": 5,
+   "Português": 3,
+   "Química": 4,
+   "Redação": 5
+  },
+  "dailyH": 0.5,
+  "perDay": 1,
+  "weekly": {
+   "Geografia": 44,
+   "Filosofia": 18,
+   "Biologia": 44,
+   "Português": 26,
+   "Química": 35,
+   "Redação": 44
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 22
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 44
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Redação",
+     "minutes": 44
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 22
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 35
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 26
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 18
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 3,
+   "Física": 5,
+   "Geografia": 5,
+   "Filosofia": 5,
+   "Matemática": 5,
+   "Química": 4,
+   "Português": 3
+  },
+  "dailyH": 1,
+  "perDay": 2,
+  "weekly": {
+   "Inglês": 42,
+   "Física": 70,
+   "Geografia": 70,
+   "Filosofia": 70,
+   "Matemática": 70,
+   "Química": 56,
+   "Português": 42
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 35
+    },
+    {
+     "subject": "Química",
+     "minutes": 28
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 35
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 35
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 35
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 35
+    },
+    {
+     "subject": "Química",
+     "minutes": 28
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 35
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 35
+    },
+    {
+     "subject": "Português",
+     "minutes": 21
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 35
+    },
+    {
+     "subject": "Português",
+     "minutes": 21
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 3
+  },
+  "dailyH": 0.5,
+  "perDay": 1,
+  "weekly": {
+   "Biologia": 210
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 30
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 4,
+   "Português": 4,
+   "Física": 2,
+   "Geografia": 5,
+   "Matemática": 3
+  },
+  "dailyH": 0.5,
+  "perDay": 3,
+  "weekly": {
+   "Biologia": 47,
+   "Português": 47,
+   "Física": 23,
+   "Geografia": 58,
+   "Matemática": 35
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 11
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 13
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Português",
+     "minutes": 11
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 11
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Física",
+     "minutes": 9
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 11
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 9
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 11
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 11
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Português",
+     "minutes": 9
+    },
+    {
+     "subject": "Física",
+     "minutes": 7
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 9
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 11
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 11
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "Português",
+     "minutes": 9
+    },
+    {
+     "subject": "Física",
+     "minutes": 7
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 5,
+   "Química": 2,
+   "Filosofia": 3,
+   "História": 3,
+   "Redação": 5,
+   "Física": 2,
+   "Biologia": 4
+  },
+  "dailyH": 2.5,
+  "perDay": 3,
+  "weekly": {
+   "Inglês": 219,
+   "Química": 88,
+   "Filosofia": 131,
+   "História": 131,
+   "Redação": 219,
+   "Física": 88,
+   "Biologia": 175
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 57
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 45
+    },
+    {
+     "subject": "Redação",
+     "minutes": 57
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 54
+    },
+    {
+     "subject": "História",
+     "minutes": 45
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 59
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Química",
+     "minutes": 44
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 43
+    },
+    {
+     "subject": "Redação",
+     "minutes": 54
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 54
+    },
+    {
+     "subject": "História",
+     "minutes": 43
+    },
+    {
+     "subject": "Física",
+     "minutes": 44
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 54
+    },
+    {
+     "subject": "Física",
+     "minutes": 44
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 58
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 54
+    },
+    {
+     "subject": "Química",
+     "minutes": 44
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 43
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "História",
+     "minutes": 43
+    },
+    {
+     "subject": "Redação",
+     "minutes": 54
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 58
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 5,
+   "Geografia": 4,
+   "Português": 3,
+   "História": 2,
+   "Inglês": 1
+  },
+  "dailyH": 2.5,
+  "perDay": 2,
+  "weekly": {
+   "Biologia": 350,
+   "Geografia": 280,
+   "Português": 210,
+   "História": 140,
+   "Inglês": 70
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 89
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 70
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 87
+    },
+    {
+     "subject": "Português",
+     "minutes": 70
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Geografia",
+     "minutes": 70
+    },
+    {
+     "subject": "História",
+     "minutes": 70
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 87
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 70
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Geografia",
+     "minutes": 70
+    },
+    {
+     "subject": "Português",
+     "minutes": 70
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 87
+    },
+    {
+     "subject": "História",
+     "minutes": 70
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Geografia",
+     "minutes": 70
+    },
+    {
+     "subject": "Português",
+     "minutes": 70
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 2,
+   "Física": 4,
+   "Química": 1,
+   "Português": 4,
+   "Inglês": 1,
+   "Matemática": 2,
+   "Geografia": 5
+  },
+  "dailyH": 2,
+  "perDay": 4,
+  "weekly": {
+   "Filosofia": 88,
+   "Física": 177,
+   "Química": 44,
+   "Português": 177,
+   "Inglês": 44,
+   "Matemática": 88,
+   "Geografia": 221
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 32
+    },
+    {
+     "subject": "Português",
+     "minutes": 37
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 30
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 35
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 30
+    },
+    {
+     "subject": "Física",
+     "minutes": 29
+    },
+    {
+     "subject": "Português",
+     "minutes": 35
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 29
+    },
+    {
+     "subject": "Português",
+     "minutes": 35
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 29
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 29
+    },
+    {
+     "subject": "Física",
+     "minutes": 29
+    },
+    {
+     "subject": "Química",
+     "minutes": 22
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 29
+    },
+    {
+     "subject": "Português",
+     "minutes": 35
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 22
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 29
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 22
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 29
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 29
+    },
+    {
+     "subject": "Química",
+     "minutes": 22
+    },
+    {
+     "subject": "Português",
+     "minutes": 35
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Química": 4,
+   "Física": 5,
+   "Matemática": 2,
+   "Português": 4,
+   "Redação": 3,
+   "Biologia": 5
+  },
+  "dailyH": 2.5,
+  "perDay": 1,
+  "weekly": {
+   "Química": 183,
+   "Física": 228,
+   "Matemática": 91,
+   "Português": 183,
+   "Redação": 137,
+   "Biologia": 228
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 114
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 228
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Química",
+     "minutes": 183
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 114
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 183
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Redação",
+     "minutes": 137
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 91
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 2
+  },
+  "dailyH": 6,
+  "perDay": 2,
+  "weekly": {
+   "Filosofia": 2520
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 360
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 4
+  },
+  "dailyH": 1.5,
+  "perDay": 4,
+  "weekly": {
+   "Português": 630
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 90
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 4,
+   "Português": 1,
+   "Inglês": 5,
+   "Redação": 1,
+   "Matemática": 3
+  },
+  "dailyH": 1,
+  "perDay": 4,
+  "weekly": {
+   "Biologia": 120,
+   "Português": 30,
+   "Inglês": 150,
+   "Redação": 30,
+   "Matemática": 90
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 18
+    },
+    {
+     "subject": "Português",
+     "minutes": 9
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 24
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 18
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Redação",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Redação",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 17
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "Redação",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 2,
+   "Inglês": 5,
+   "Geografia": 5
+  },
+  "dailyH": 3,
+  "perDay": 5,
+  "weekly": {
+   "Português": 210,
+   "Inglês": 525,
+   "Geografia": 525
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 75
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 1,
+   "Redação": 1,
+   "História": 4,
+   "Filosofia": 3,
+   "Biologia": 3,
+   "Química": 1,
+   "Português": 1,
+   "Matemática": 1,
+   "Inglês": 4,
+   "Física": 5
+  },
+  "dailyH": 4.25,
+  "perDay": 1,
+  "weekly": {
+   "Geografia": 74,
+   "Redação": 74,
+   "História": 298,
+   "Filosofia": 223,
+   "Biologia": 223,
+   "Química": 74,
+   "Português": 74,
+   "Matemática": 74,
+   "Inglês": 298,
+   "Física": 372
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 223
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 223
+    },
+    {
+     "subject": "Física",
+     "minutes": 372
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Geografia",
+     "minutes": 74
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Redação",
+     "minutes": 74
+    },
+    {
+     "subject": "História",
+     "minutes": 298
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 74
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 74
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 298
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 74
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 3
+  },
+  "dailyH": 0.5,
+  "perDay": 4,
+  "weekly": {
+   "Física": 210
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 30
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "História": 5,
+   "Filosofia": 4,
+   "Inglês": 3,
+   "Química": 2
+  },
+  "dailyH": 3,
+  "perDay": 1,
+  "weekly": {
+   "História": 450,
+   "Filosofia": 360,
+   "Inglês": 270,
+   "Química": 180
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "História",
+     "minutes": 225
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 180
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Inglês",
+     "minutes": 135
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "História",
+     "minutes": 225
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Filosofia",
+     "minutes": 180
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 135
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Química",
+     "minutes": 180
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 5,
+   "Física": 2,
+   "Inglês": 1,
+   "História": 3,
+   "Redação": 5,
+   "Português": 2,
+   "Química": 5
+  },
+  "dailyH": 2.5,
+  "perDay": 3,
+  "weekly": {
+   "Biologia": 228,
+   "Física": 91,
+   "Inglês": 46,
+   "História": 137,
+   "Redação": 228,
+   "Português": 91,
+   "Química": 228
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 48
+    },
+    {
+     "subject": "Física",
+     "minutes": 46
+    },
+    {
+     "subject": "Redação",
+     "minutes": 57
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "História",
+     "minutes": 47
+    },
+    {
+     "subject": "Química",
+     "minutes": 57
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "Redação",
+     "minutes": 57
+    },
+    {
+     "subject": "Português",
+     "minutes": 46
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "História",
+     "minutes": 45
+    },
+    {
+     "subject": "Química",
+     "minutes": 57
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 45
+    },
+    {
+     "subject": "Redação",
+     "minutes": 57
+    },
+    {
+     "subject": "Química",
+     "minutes": 57
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "História",
+     "minutes": 45
+    },
+    {
+     "subject": "Português",
+     "minutes": 45
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Inglês",
+     "minutes": 46
+    },
+    {
+     "subject": "Redação",
+     "minutes": 57
+    },
+    {
+     "subject": "Química",
+     "minutes": 57
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Matemática": 3,
+   "Filosofia": 5,
+   "Inglês": 4
+  },
+  "dailyH": 4.25,
+  "perDay": 4,
+  "weekly": {
+   "Matemática": 446,
+   "Filosofia": 744,
+   "Inglês": 595
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 68
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 108
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 63
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 106
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 85
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 1,
+   "Matemática": 2
+  },
+  "dailyH": 0.5,
+  "perDay": 4,
+  "weekly": {
+   "Filosofia": 70,
+   "Matemática": 140
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 20
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Matemática": 3,
+   "Português": 3,
+   "Biologia": 5,
+   "Física": 3,
+   "Redação": 2,
+   "Filosofia": 3,
+   "Geografia": 5
+  },
+  "dailyH": 1,
+  "perDay": 5,
+  "weekly": {
+   "Matemática": 52,
+   "Português": 52,
+   "Biologia": 88,
+   "Física": 52,
+   "Redação": 35,
+   "Filosofia": 52,
+   "Geografia": 88
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 16
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 16
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Redação",
+     "minutes": 11
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 10
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 11
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 12
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 5,
+   "Geografia": 1,
+   "Inglês": 2
+  },
+  "dailyH": 2,
+  "perDay": 5,
+  "weekly": {
+   "Física": 525,
+   "Geografia": 105,
+   "Inglês": 210
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 75
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 15
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 1,
+   "História": 2,
+   "Matemática": 1,
+   "Redação": 4,
+   "Física": 5
+  },
+  "dailyH": 3,
+  "perDay": 2,
+  "weekly": {
+   "Português": 97,
+   "História": 194,
+   "Matemática": 97,
+   "Redação": 388,
+   "Física": 485
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Redação",
+     "minutes": 97
+    },
+    {
+     "subject": "Física",
+     "minutes": 97
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "História",
+     "minutes": 97
+    },
+    {
+     "subject": "Física",
+     "minutes": 97
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Redação",
+     "minutes": 97
+    },
+    {
+     "subject": "Física",
+     "minutes": 97
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 49
+    },
+    {
+     "subject": "Física",
+     "minutes": 97
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "História",
+     "minutes": 97
+    },
+    {
+     "subject": "Redação",
+     "minutes": 97
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 97
+    },
+    {
+     "subject": "Física",
+     "minutes": 97
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 48
+    },
+    {
+     "subject": "Redação",
+     "minutes": 97
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 2,
+   "Inglês": 1,
+   "Química": 4,
+   "Português": 1,
+   "Filosofia": 5,
+   "História": 3
+  },
+  "dailyH": 2,
+  "perDay": 2,
+  "weekly": {
+   "Biologia": 105,
+   "Inglês": 52,
+   "Química": 210,
+   "Português": 52,
+   "Filosofia": 262,
+   "História": 158
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 67
+    },
+    {
+     "subject": "História",
+     "minutes": 54
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 53
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 65
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Inglês",
+     "minutes": 52
+    },
+    {
+     "subject": "Química",
+     "minutes": 70
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 65
+    },
+    {
+     "subject": "História",
+     "minutes": 52
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 52
+    },
+    {
+     "subject": "Química",
+     "minutes": 70
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 65
+    },
+    {
+     "subject": "História",
+     "minutes": 52
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Química",
+     "minutes": 70
+    },
+    {
+     "subject": "Português",
+     "minutes": 52
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 4,
+   "Inglês": 2,
+   "Matemática": 5,
+   "Química": 2,
+   "Biologia": 3,
+   "Português": 3,
+   "Física": 4
+  },
+  "dailyH": 0.5,
+  "perDay": 1,
+  "weekly": {
+   "Geografia": 37,
+   "Inglês": 18,
+   "Matemática": 46,
+   "Química": 18,
+   "Biologia": 27,
+   "Português": 27,
+   "Física": 37
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 46
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 37
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 37
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 27
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 27
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Química",
+     "minutes": 18
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 3,
+   "Matemática": 2,
+   "Geografia": 4
+  },
+  "dailyH": 0.5,
+  "perDay": 1,
+  "weekly": {
+   "Física": 70,
+   "Matemática": 47,
+   "Geografia": 93
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 35
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 24
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 35
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Geografia",
+     "minutes": 31
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 23
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 5,
+   "Química": 2,
+   "Biologia": 2
+  },
+  "dailyH": 1.5,
+  "perDay": 2,
+  "weekly": {
+   "Geografia": 350,
+   "Química": 140,
+   "Biologia": 140
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 35
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 35
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 48
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 35
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 46
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 35
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 46
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 2,
+   "Física": 4,
+   "História": 5,
+   "Matemática": 1,
+   "Redação": 2,
+   "Biologia": 5,
+   "Português": 5
+  },
+  "dailyH": 6,
+  "perDay": 1,
+  "weekly": {
+   "Inglês": 210,
+   "Física": 420,
+   "História": 525,
+   "Matemática": 105,
+   "Redação": 210,
+   "Biologia": 525,
+   "Português": 525
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "História",
+     "minutes": 525
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 525
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 525
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 420
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 210
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Redação",
+     "minutes": 210
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 105
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 2,
+   "Geografia": 4
+  },
+  "dailyH": 3,
+  "perDay": 4,
+  "weekly": {
+   "Português": 420,
+   "Geografia": 840
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 60
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 5,
+   "Matemática": 1,
+   "Biologia": 1,
+   "História": 5,
+   "Redação": 4
+  },
+  "dailyH": 6,
+  "perDay": 3,
+  "weekly": {
+   "Português": 788,
+   "Matemática": 158,
+   "Biologia": 158,
+   "História": 788,
+   "Redação": 630
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Português",
+     "minutes": 133
+    },
+    {
+     "subject": "História",
+     "minutes": 133
+    },
+    {
+     "subject": "Redação",
+     "minutes": 126
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 131
+    },
+    {
+     "subject": "História",
+     "minutes": 131
+    },
+    {
+     "subject": "Redação",
+     "minutes": 126
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 131
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 79
+    },
+    {
+     "subject": "História",
+     "minutes": 131
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 131
+    },
+    {
+     "subject": "História",
+     "minutes": 131
+    },
+    {
+     "subject": "Redação",
+     "minutes": 126
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Português",
+     "minutes": 131
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 79
+    },
+    {
+     "subject": "História",
+     "minutes": 131
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 131
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 79
+    },
+    {
+     "subject": "Redação",
+     "minutes": 126
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 79
+    },
+    {
+     "subject": "História",
+     "minutes": 131
+    },
+    {
+     "subject": "Redação",
+     "minutes": 126
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 4,
+   "Matemática": 2,
+   "Redação": 5,
+   "Física": 4,
+   "Geografia": 1,
+   "História": 1,
+   "Química": 3,
+   "Biologia": 5
+  },
+  "dailyH": 1,
+  "perDay": 4,
+  "weekly": {
+   "Português": 67,
+   "Matemática": 34,
+   "Redação": 84,
+   "Física": 67,
+   "Geografia": 17,
+   "História": 17,
+   "Química": 50,
+   "Biologia": 84
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Português",
+     "minutes": 15
+    },
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Física",
+     "minutes": 19
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 20
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Química",
+     "minutes": 18
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 16
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Física",
+     "minutes": 16
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 16
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 13
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 11
+    },
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Física",
+     "minutes": 16
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 17
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 16
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Português",
+     "minutes": 13
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 11
+    },
+    {
+     "subject": "Redação",
+     "minutes": 14
+    },
+    {
+     "subject": "Física",
+     "minutes": 16
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 13
+    },
+    {
+     "subject": "História",
+     "minutes": 17
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 16
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 1,
+   "Química": 2
+  },
+  "dailyH": 0.5,
+  "perDay": 2,
+  "weekly": {
+   "Geografia": 70,
+   "Química": 140
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Geografia",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 20
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 3
+  },
+  "dailyH": 0.5,
+  "perDay": 2,
+  "weekly": {
+   "Inglês": 210
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 4,
+   "História": 2,
+   "Matemática": 4,
+   "Português": 1,
+   "Inglês": 1,
+   "Biologia": 3,
+   "Redação": 1,
+   "Filosofia": 1,
+   "Geografia": 4
+  },
+  "dailyH": 3,
+  "perDay": 4,
+  "weekly": {
+   "Física": 240,
+   "História": 120,
+   "Matemática": 240,
+   "Português": 60,
+   "Inglês": 60,
+   "Biologia": 180,
+   "Redação": 60,
+   "Filosofia": 60,
+   "Geografia": 240
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 48
+    },
+    {
+     "subject": "História",
+     "minutes": 40
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 48
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    },
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 48
+    },
+    {
+     "subject": "História",
+     "minutes": 40
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 48
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "História",
+     "minutes": 40
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    },
+    {
+     "subject": "Redação",
+     "minutes": 30
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 48
+    },
+    {
+     "subject": "Português",
+     "minutes": 30
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 45
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 60
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 30
+    },
+    {
+     "subject": "Redação",
+     "minutes": 30
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 60
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 4,
+   "História": 3,
+   "Redação": 2,
+   "Matemática": 1,
+   "Química": 3
+  },
+  "dailyH": 1,
+  "perDay": 4,
+  "weekly": {
+   "Inglês": 129,
+   "História": 97,
+   "Redação": 65,
+   "Matemática": 32,
+   "Química": 97
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 21
+    },
+    {
+     "subject": "História",
+     "minutes": 19
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Química",
+     "minutes": 17
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    },
+    {
+     "subject": "Química",
+     "minutes": 16
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Inglês",
+     "minutes": 18
+    },
+    {
+     "subject": "História",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 13
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 10
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 3,
+   "Química": 1,
+   "Matemática": 3,
+   "Física": 3,
+   "Inglês": 5,
+   "Filosofia": 3,
+   "Geografia": 5
+  },
+  "dailyH": 2.5,
+  "perDay": 1,
+  "weekly": {
+   "Biologia": 137,
+   "Química": 46,
+   "Matemática": 137,
+   "Física": 137,
+   "Inglês": 228,
+   "Filosofia": 137,
+   "Geografia": 228
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 228
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 228
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 137
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 137
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 137
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 137
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Química",
+     "minutes": 46
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Redação": 1
+  },
+  "dailyH": 3,
+  "perDay": 5,
+  "weekly": {
+   "Redação": 1260
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Redação",
+     "minutes": 180
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Matemática": 3,
+   "História": 1,
+   "Química": 2,
+   "Filosofia": 1,
+   "Português": 3,
+   "Biologia": 4,
+   "Física": 4,
+   "Redação": 2,
+   "Geografia": 4,
+   "Inglês": 2
+  },
+  "dailyH": 1,
+  "perDay": 5,
+  "weekly": {
+   "Matemática": 48,
+   "História": 16,
+   "Química": 32,
+   "Filosofia": 16,
+   "Português": 48,
+   "Biologia": 65,
+   "Física": 65,
+   "Redação": 32,
+   "Geografia": 65,
+   "Inglês": 32
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 12
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Química",
+     "minutes": 12
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 13
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 16
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "História",
+     "minutes": 8
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 8
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 10
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 13
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 10
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 13
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 16
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 12
+    },
+    {
+     "subject": "História",
+     "minutes": 8
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Redação",
+     "minutes": 10
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 13
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Química",
+     "minutes": 10
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 8
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Física",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 13
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 2,
+   "Inglês": 3,
+   "Química": 2,
+   "Redação": 1,
+   "Física": 2
+  },
+  "dailyH": 1,
+  "perDay": 2,
+  "weekly": {
+   "Filosofia": 84,
+   "Inglês": 126,
+   "Química": 84,
+   "Redação": 42,
+   "Física": 84
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 33
+    },
+    {
+     "subject": "Química",
+     "minutes": 28
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Inglês",
+     "minutes": 31
+    },
+    {
+     "subject": "Física",
+     "minutes": 42
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 28
+    },
+    {
+     "subject": "Redação",
+     "minutes": 21
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Inglês",
+     "minutes": 31
+    },
+    {
+     "subject": "Química",
+     "minutes": 28
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Filosofia",
+     "minutes": 28
+    },
+    {
+     "subject": "Física",
+     "minutes": 42
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 31
+    },
+    {
+     "subject": "Química",
+     "minutes": 28
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 28
+    },
+    {
+     "subject": "Redação",
+     "minutes": 21
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 2,
+   "Matemática": 3,
+   "Inglês": 1,
+   "Redação": 2
+  },
+  "dailyH": 1.5,
+  "perDay": 2,
+  "weekly": {
+   "Física": 158,
+   "Matemática": 236,
+   "Inglês": 79,
+   "Redação": 158
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 41
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 48
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 47
+    },
+    {
+     "subject": "Redação",
+     "minutes": 54
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 39
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 47
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Matemática",
+     "minutes": 47
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 40
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 39
+    },
+    {
+     "subject": "Redação",
+     "minutes": 52
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Matemática",
+     "minutes": 47
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 39
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 39
+    },
+    {
+     "subject": "Redação",
+     "minutes": 52
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 3,
+   "Redação": 2,
+   "Biologia": 2,
+   "Geografia": 5,
+   "Matemática": 5
+  },
+  "dailyH": 4.25,
+  "perDay": 1,
+  "weekly": {
+   "Português": 315,
+   "Redação": 210,
+   "Biologia": 210,
+   "Geografia": 525,
+   "Matemática": 525
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 263
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 263
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Português",
+     "minutes": 315
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 262
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Matemática",
+     "minutes": 262
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Redação",
+     "minutes": 210
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 210
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Inglês": 2,
+   "Filosofia": 2,
+   "Português": 3,
+   "Química": 5,
+   "Geografia": 2,
+   "Biologia": 2,
+   "Matemática": 5
+  },
+  "dailyH": 2.5,
+  "perDay": 3,
+  "weekly": {
+   "Inglês": 100,
+   "Filosofia": 100,
+   "Português": 150,
+   "Química": 250,
+   "Geografia": 100,
+   "Biologia": 100,
+   "Matemática": 250
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Inglês",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 50
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 50
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Português",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 50
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 50
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 50
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 50
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Português",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 50
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 50
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 50
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 50
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 50
+    },
+    {
+     "subject": "Química",
+     "minutes": 50
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 50
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 50
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 50
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 50
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Filosofia": 2
+  },
+  "dailyH": 1.5,
+  "perDay": 4,
+  "weekly": {
+   "Filosofia": 630
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Filosofia",
+     "minutes": 90
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 2,
+   "História": 1,
+   "Redação": 3,
+   "Geografia": 5,
+   "Química": 3,
+   "Filosofia": 2,
+   "Matemática": 3,
+   "Português": 5,
+   "Inglês": 1,
+   "Biologia": 2
+  },
+  "dailyH": 4.25,
+  "perDay": 3,
+  "weekly": {
+   "Física": 132,
+   "História": 66,
+   "Redação": 198,
+   "Geografia": 331,
+   "Química": 198,
+   "Filosofia": 132,
+   "Matemática": 198,
+   "Português": 331,
+   "Inglês": 66,
+   "Biologia": 132
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Redação",
+     "minutes": 99
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 85
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 66
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 82
+    },
+    {
+     "subject": "Química",
+     "minutes": 99
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 66
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 66
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 99
+    },
+    {
+     "subject": "Português",
+     "minutes": 111
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Redação",
+     "minutes": 99
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 82
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 66
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 99
+    },
+    {
+     "subject": "Português",
+     "minutes": 110
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 66
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "História",
+     "minutes": 66
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 82
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 99
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Física",
+     "minutes": 66
+    },
+    {
+     "subject": "Português",
+     "minutes": 110
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 66
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Física": 1,
+   "História": 5,
+   "Biologia": 1
+  },
+  "dailyH": 0.5,
+  "perDay": 2,
+  "weekly": {
+   "Física": 30,
+   "História": 150,
+   "Biologia": 30
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 9
+    },
+    {
+     "subject": "História",
+     "minutes": 24
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Física",
+     "minutes": 7
+    },
+    {
+     "subject": "História",
+     "minutes": 21
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "História",
+     "minutes": 21
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 10
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 7
+    },
+    {
+     "subject": "História",
+     "minutes": 21
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "História",
+     "minutes": 21
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 10
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Física",
+     "minutes": 7
+    },
+    {
+     "subject": "História",
+     "minutes": 21
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "História",
+     "minutes": 21
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 10
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Português": 1,
+   "Redação": 3,
+   "História": 4,
+   "Física": 3,
+   "Matemática": 4,
+   "Inglês": 2,
+   "Geografia": 3,
+   "Química": 2
+  },
+  "dailyH": 4.25,
+  "perDay": 1,
+  "weekly": {
+   "Português": 81,
+   "Redação": 243,
+   "História": 325,
+   "Física": 243,
+   "Matemática": 325,
+   "Inglês": 162,
+   "Geografia": 243,
+   "Química": 162
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 325
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Redação",
+     "minutes": 243
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 243
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "História",
+     "minutes": 325
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 243
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Inglês",
+     "minutes": 162
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Química",
+     "minutes": 162
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Português",
+     "minutes": 81
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Redação": 2,
+   "História": 4,
+   "Física": 5,
+   "Química": 5,
+   "Inglês": 4
+  },
+  "dailyH": 2.5,
+  "perDay": 1,
+  "weekly": {
+   "Redação": 105,
+   "História": 210,
+   "Física": 262,
+   "Química": 262,
+   "Inglês": 210
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Física",
+     "minutes": 131
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Química",
+     "minutes": 131
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "História",
+     "minutes": 210
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Física",
+     "minutes": 131
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Química",
+     "minutes": 131
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Inglês",
+     "minutes": 210
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Redação",
+     "minutes": 105
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Matemática": 3,
+   "Redação": 3,
+   "Biologia": 5,
+   "Inglês": 4
+  },
+  "dailyH": 4.25,
+  "perDay": 2,
+  "weekly": {
+   "Matemática": 357,
+   "Redação": 357,
+   "Biologia": 595,
+   "Inglês": 476
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 151
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 119
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Matemática",
+     "minutes": 119
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 148
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Redação",
+     "minutes": 119
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 119
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Redação",
+     "minutes": 119
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 148
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Matemática",
+     "minutes": 119
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 119
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Redação",
+     "minutes": 119
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 148
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Matemática",
+     "minutes": 119
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 119
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 2,
+   "Matemática": 1,
+   "História": 1,
+   "Física": 2,
+   "Português": 4,
+   "Inglês": 2,
+   "Redação": 4,
+   "Filosofia": 2
+  },
+  "dailyH": 0.5,
+  "perDay": 4,
+  "weekly": {
+   "Biologia": 23,
+   "Matemática": 12,
+   "História": 12,
+   "Física": 23,
+   "Português": 47,
+   "Inglês": 23,
+   "Redação": 47,
+   "Filosofia": 23
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Matemática",
+     "minutes": 6
+    },
+    {
+     "subject": "Português",
+     "minutes": 12
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 9
+    },
+    {
+     "subject": "Redação",
+     "minutes": 12
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 9
+    },
+    {
+     "subject": "História",
+     "minutes": 6
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Redação",
+     "minutes": 7
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Física",
+     "minutes": 9
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Redação",
+     "minutes": 7
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 9
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 7
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 7
+    },
+    {
+     "subject": "Redação",
+     "minutes": 7
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Física",
+     "minutes": 7
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Redação",
+     "minutes": 7
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 7
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 7
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 6
+    },
+    {
+     "subject": "Português",
+     "minutes": 7
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 7
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "História",
+     "minutes": 6
+    },
+    {
+     "subject": "Física",
+     "minutes": 7
+    },
+    {
+     "subject": "Redação",
+     "minutes": 7
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 7
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "História": 3,
+   "Redação": 3,
+   "Filosofia": 4,
+   "Física": 4
+  },
+  "dailyH": 0.5,
+  "perDay": 3,
+  "weekly": {
+   "História": 45,
+   "Redação": 45,
+   "Filosofia": 60,
+   "Física": 60
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "História",
+     "minutes": 9
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "História",
+     "minutes": 9
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Redação",
+     "minutes": 12
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "História",
+     "minutes": 9
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 11
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "História",
+     "minutes": 9
+    },
+    {
+     "subject": "Redação",
+     "minutes": 11
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 10
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "História",
+     "minutes": 9
+    },
+    {
+     "subject": "Redação",
+     "minutes": 11
+    },
+    {
+     "subject": "Física",
+     "minutes": 10
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 4,
+   "Geografia": 5,
+   "Inglês": 1,
+   "Português": 2,
+   "Redação": 4,
+   "Matemática": 4,
+   "Física": 2,
+   "Filosofia": 3
+  },
+  "dailyH": 1,
+  "perDay": 4,
+  "weekly": {
+   "Biologia": 67,
+   "Geografia": 84,
+   "Inglês": 17,
+   "Português": 34,
+   "Redação": 67,
+   "Matemática": 67,
+   "Física": 34,
+   "Filosofia": 50
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 15
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 19
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 18
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Redação",
+     "minutes": 19
+    },
+    {
+     "subject": "Física",
+     "minutes": 17
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 16
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 16
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Português",
+     "minutes": 17
+    },
+    {
+     "subject": "Redação",
+     "minutes": 16
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 16
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Física",
+     "minutes": 17
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 16
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Geografia",
+     "minutes": 14
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 9
+    },
+    {
+     "subject": "Redação",
+     "minutes": 16
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 16
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 13
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 8
+    },
+    {
+     "subject": "Português",
+     "minutes": 17
+    },
+    {
+     "subject": "Redação",
+     "minutes": 16
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Química": 5,
+   "Redação": 5,
+   "Biologia": 3,
+   "História": 5,
+   "Matemática": 5,
+   "Inglês": 5
+  },
+  "dailyH": 6,
+  "perDay": 2,
+  "weekly": {
+   "Química": 450,
+   "Redação": 450,
+   "Biologia": 270,
+   "História": 450,
+   "Matemática": 450,
+   "Inglês": 450
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Química",
+     "minutes": 150
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 225
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Redação",
+     "minutes": 150
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 225
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 135
+    },
+    {
+     "subject": "História",
+     "minutes": 225
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Química",
+     "minutes": 150
+    },
+    {
+     "subject": "Matemática",
+     "minutes": 225
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Redação",
+     "minutes": 150
+    },
+    {
+     "subject": "Inglês",
+     "minutes": 225
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Química",
+     "minutes": 150
+    },
+    {
+     "subject": "História",
+     "minutes": 225
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Redação",
+     "minutes": 150
+    },
+    {
+     "subject": "Biologia",
+     "minutes": 135
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 4,
+   "Química": 5,
+   "Redação": 1,
+   "História": 3,
+   "Filosofia": 4,
+   "Geografia": 2,
+   "Física": 3
+  },
+  "dailyH": 4.25,
+  "perDay": 3,
+  "weekly": {
+   "Biologia": 325,
+   "Química": 406,
+   "Redação": 81,
+   "História": 243,
+   "Filosofia": 325,
+   "Geografia": 162,
+   "Física": 243
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 82
+    },
+    {
+     "subject": "Química",
+     "minutes": 103
+    },
+    {
+     "subject": "História",
+     "minutes": 81
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Química",
+     "minutes": 101
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 82
+    },
+    {
+     "subject": "Física",
+     "minutes": 81
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 81
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 81
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 81
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Química",
+     "minutes": 101
+    },
+    {
+     "subject": "Redação",
+     "minutes": 81
+    },
+    {
+     "subject": "História",
+     "minutes": 81
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 81
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 81
+    },
+    {
+     "subject": "Física",
+     "minutes": 81
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Química",
+     "minutes": 101
+    },
+    {
+     "subject": "História",
+     "minutes": 81
+    },
+    {
+     "subject": "Geografia",
+     "minutes": 81
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 81
+    },
+    {
+     "subject": "Filosofia",
+     "minutes": 81
+    },
+    {
+     "subject": "Física",
+     "minutes": 81
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Geografia": 5
+  },
+  "dailyH": 2,
+  "perDay": 5,
+  "weekly": {
+   "Geografia": 840
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Geografia",
+     "minutes": 120
+    }
+   ]
+  }
+ },
+ {
+  "subjects": {
+   "Biologia": 2
+  },
+  "dailyH": 3,
+  "perDay": 4,
+  "weekly": {
+   "Biologia": 1260
+  },
+  "schedule": {
+   "Seg": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Ter": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Qua": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Qui": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Sex": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Sáb": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ],
+   "Dom": [
+    {
+     "subject": "Biologia",
+     "minutes": 180
+    }
+   ]
+  }
+ }
+]

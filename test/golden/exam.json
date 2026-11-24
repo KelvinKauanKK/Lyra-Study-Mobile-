@@ -1,0 +1,2933 @@
+{
+ "adjust": [
+  {
+   "total": 20,
+   "hits": 9,
+   "annulled": 3,
+   "annulledHit": 3,
+   "expected": [
+    6,
+    17
+   ]
+  },
+  {
+   "total": 20,
+   "hits": 9,
+   "annulled": 3,
+   "annulledHit": 0,
+   "expected": [
+    9,
+    17
+   ]
+  },
+  {
+   "total": 10,
+   "hits": 0,
+   "annulled": 4,
+   "annulledHit": 0,
+   "expected": [
+    0,
+    6
+   ]
+  },
+  {
+   "total": 5,
+   "hits": 5,
+   "annulled": 5,
+   "annulledHit": 5,
+   "expected": [
+    0,
+    0
+   ]
+  },
+  {
+   "total": 7,
+   "hits": 7,
+   "annulled": 0,
+   "annulledHit": 0,
+   "expected": [
+    7,
+    7
+   ]
+  }
+ ],
+ "exams": [
+  {
+   "name": "  ",
+   "maxQ": 36,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 3,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Filosofia",
+     "total": 24,
+     "hits": 10,
+     "annulled": 20,
+     "annulled_hit": 9,
+     "weight": 1
+    },
+    {
+     "subject": "Matemática",
+     "total": 4,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Redação",
+     "total": 5,
+     "hits": 2,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 31,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 3,
+     "hits": 2,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Geografia",
+     "total": 25,
+     "hits": 9,
+     "annulled": 17,
+     "annulled_hit": 2,
+     "weight": 2
+    },
+    {
+     "subject": "Redação",
+     "total": 3,
+     "hits": 3,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 12,
+    "scale": 13,
+    "annulled": 18,
+    "score10": 9.23,
+    "subjects": {
+     "Química": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 2,
+      "orig_total": 3,
+      "annulled": 1,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Geografia": {
+      "hits": 7,
+      "total": 8,
+      "orig_hits": 9,
+      "orig_total": 25,
+      "annulled": 17,
+      "annulled_hit": 2,
+      "score": 8.75,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 3,
+      "total": 3,
+      "orig_hits": 3,
+      "orig_total": 3,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 11,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 11,
+     "hits": 8,
+     "annulled": 10,
+     "annulled_hit": 5,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 1,
+    "scale": 1,
+    "annulled": 10,
+    "score10": 10.0,
+    "subjects": {
+     "Biologia": {
+      "hits": 1,
+      "total": 1,
+      "orig_hits": 8,
+      "orig_total": 11,
+      "annulled": 10,
+      "annulled_hit": 5,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 45,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 22,
+     "hits": 12,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "Matemática",
+     "total": 17,
+     "hits": 16,
+     "annulled": 5,
+     "annulled_hit": 3,
+     "weight": 1
+    },
+    {
+     "subject": "Geografia",
+     "total": 6,
+     "hits": 6,
+     "annulled": 5,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 24,
+    "scale": 34,
+    "annulled": 11,
+    "score10": 8.1,
+    "subjects": {
+     "Filosofia": {
+      "hits": 11,
+      "total": 21,
+      "orig_hits": 12,
+      "orig_total": 22,
+      "annulled": 1,
+      "annulled_hit": 1,
+      "score": 5.24,
+      "weight": 1.0
+     },
+     "Matemática": {
+      "hits": 12,
+      "total": 12,
+      "orig_hits": 16,
+      "orig_total": 17,
+      "annulled": 5,
+      "annulled_hit": 3,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Geografia": {
+      "hits": 1,
+      "total": 1,
+      "orig_hits": 6,
+      "orig_total": 6,
+      "annulled": 5,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 0.5
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 47,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 2,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 0.5
+    },
+    {
+     "subject": "Física",
+     "total": 23,
+     "hits": 16,
+     "annulled": 6,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "Inglês",
+     "total": 22,
+     "hits": 22,
+     "annulled": 12,
+     "annulled_hit": 6,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Química: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 20,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 19,
+     "hits": 9,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "error": "A soma das questões das matérias (19) precisa ser igual ao máximo de questões da prova (20)."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 9,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 9,
+     "hits": 8,
+     "annulled": 4,
+     "annulled_hit": 2,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 5,
+    "scale": 5,
+    "annulled": 4,
+    "score10": 10.0,
+    "subjects": {
+     "Inglês": {
+      "hits": 5,
+      "total": 5,
+      "orig_hits": 8,
+      "orig_total": 9,
+      "annulled": 4,
+      "annulled_hit": 2,
+      "score": 10.0,
+      "weight": 0.5
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 8,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 8,
+     "hits": 4,
+     "annulled": 2,
+     "annulled_hit": 2,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 2,
+    "scale": 6,
+    "annulled": 2,
+    "score10": 3.33,
+    "subjects": {
+     "Biologia": {
+      "hits": 2,
+      "total": 6,
+      "orig_hits": 4,
+      "orig_total": 8,
+      "annulled": 2,
+      "annulled_hit": 2,
+      "score": 3.33,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 57,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 19,
+     "hits": 7,
+     "annulled": 3,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "Biologia",
+     "total": 13,
+     "hits": 6,
+     "annulled": 12,
+     "annulled_hit": 1,
+     "weight": 3
+    },
+    {
+     "subject": "História",
+     "total": 23,
+     "hits": 11,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Matemática",
+     "total": 1,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 54,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 15,
+     "hits": 0,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Física",
+     "total": 14,
+     "hits": 2,
+     "annulled": 8,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Matemática",
+     "total": 5,
+     "hits": 5,
+     "annulled": 3,
+     "annulled_hit": 3,
+     "weight": 3
+    },
+    {
+     "subject": "Filosofia",
+     "total": 20,
+     "hits": 8,
+     "annulled": 9,
+     "annulled_hit": 8,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 37,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 22,
+     "hits": 11,
+     "annulled": 20,
+     "annulled_hit": 4,
+     "weight": 2
+    },
+    {
+     "subject": "História",
+     "total": 9,
+     "hits": 2,
+     "annulled": 9,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "Português",
+     "total": 6,
+     "hits": 2,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "História: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "  ",
+   "maxQ": 5,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 2,
+     "hits": 2,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Geografia",
+     "total": 2,
+     "hits": 2,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 13,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 13,
+     "hits": 7,
+     "annulled": 3,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 8,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 7,
+     "hits": 4,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Redação",
+     "total": 1,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 4,
+    "scale": 8,
+    "annulled": 0,
+    "score10": 2.28,
+    "subjects": {
+     "Filosofia": {
+      "hits": 4,
+      "total": 7,
+      "orig_hits": 4,
+      "orig_total": 7,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 5.71,
+      "weight": 2.0
+     },
+     "Redação": {
+      "hits": 0,
+      "total": 1,
+      "orig_hits": 0,
+      "orig_total": 1,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 3.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 17,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 17,
+     "hits": 11,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 18,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 3,
+     "hits": 2,
+     "annulled": 3,
+     "annulled_hit": 2,
+     "weight": 1
+    },
+    {
+     "subject": "História",
+     "total": 15,
+     "hits": 1,
+     "annulled": 8,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Matemática: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 65,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 12,
+     "hits": 5,
+     "annulled": 7,
+     "annulled_hit": 4,
+     "weight": 2
+    },
+    {
+     "subject": "Filosofia",
+     "total": 21,
+     "hits": 17,
+     "annulled": 7,
+     "annulled_hit": 5,
+     "weight": 1
+    },
+    {
+     "subject": "Física",
+     "total": 10,
+     "hits": 4,
+     "annulled": 5,
+     "annulled_hit": 4,
+     "weight": 1
+    },
+    {
+     "subject": "Redação",
+     "total": 21,
+     "hits": 6,
+     "annulled": 19,
+     "annulled_hit": 3,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (64) precisa ser igual ao máximo de questões da prova (65)."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 12,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 11,
+     "hits": 10,
+     "annulled": 9,
+     "annulled_hit": 2,
+     "weight": 3
+    },
+    {
+     "subject": "Português",
+     "total": 1,
+     "hits": 1,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 3,
+    "scale": 3,
+    "annulled": 9,
+    "score10": 10.0,
+    "subjects": {
+     "Filosofia": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 10,
+      "orig_total": 11,
+      "annulled": 9,
+      "annulled_hit": 2,
+      "score": 10.0,
+      "weight": 3.0
+     },
+     "Português": {
+      "hits": 1,
+      "total": 1,
+      "orig_hits": 1,
+      "orig_total": 1,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 3.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 52,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 16,
+     "hits": 12,
+     "annulled": 11,
+     "annulled_hit": 2,
+     "weight": 3
+    },
+    {
+     "subject": "Português",
+     "total": 12,
+     "hits": 1,
+     "annulled": 6,
+     "annulled_hit": 1,
+     "weight": 0.5
+    },
+    {
+     "subject": "Química",
+     "total": 24,
+     "hits": 24,
+     "annulled": 18,
+     "annulled_hit": 12,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 23,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 23,
+     "hits": 4,
+     "annulled": 8,
+     "annulled_hit": 1,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 3,
+    "scale": 15,
+    "annulled": 8,
+    "score10": 2.0,
+    "subjects": {
+     "Português": {
+      "hits": 3,
+      "total": 15,
+      "orig_hits": 4,
+      "orig_total": 23,
+      "annulled": 8,
+      "annulled_hit": 1,
+      "score": 2.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 5,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 5,
+     "hits": 3,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 2,
+    "scale": 4,
+    "annulled": 1,
+    "score10": 5.0,
+    "subjects": {
+     "Matemática": {
+      "hits": 2,
+      "total": 4,
+      "orig_hits": 3,
+      "orig_total": 5,
+      "annulled": 1,
+      "annulled_hit": 1,
+      "score": 5.0,
+      "weight": 0.5
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 29,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 11,
+     "hits": 8,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Química",
+     "total": 6,
+     "hits": 3,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Português",
+     "total": 12,
+     "hits": 5,
+     "annulled": 6,
+     "annulled_hit": 0,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 15,
+    "scale": 18,
+    "annulled": 11,
+    "score10": 7.9,
+    "subjects": {
+     "Inglês": {
+      "hits": 7,
+      "total": 7,
+      "orig_hits": 8,
+      "orig_total": 11,
+      "annulled": 4,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 0.5
+     },
+     "Química": {
+      "hits": 3,
+      "total": 5,
+      "orig_hits": 3,
+      "orig_total": 6,
+      "annulled": 1,
+      "annulled_hit": 0,
+      "score": 6.0,
+      "weight": 1.0
+     },
+     "Português": {
+      "hits": 5,
+      "total": 6,
+      "orig_hits": 5,
+      "orig_total": 12,
+      "annulled": 6,
+      "annulled_hit": 0,
+      "score": 8.33,
+      "weight": 2.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 3,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 3,
+     "hits": 0,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 0,
+    "scale": 1,
+    "annulled": 2,
+    "score10": 0.0,
+    "subjects": {
+     "Física": {
+      "hits": 0,
+      "total": 1,
+      "orig_hits": 0,
+      "orig_total": 3,
+      "annulled": 2,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 63,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 25,
+     "hits": 21,
+     "annulled": 6,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "História",
+     "total": 25,
+     "hits": 16,
+     "annulled": 3,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Geografia",
+     "total": 13,
+     "hits": 13,
+     "annulled": 7,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 41,
+    "scale": 47,
+    "annulled": 16,
+    "score10": 8.72,
+    "subjects": {
+     "Biologia": {
+      "hits": 19,
+      "total": 19,
+      "orig_hits": 21,
+      "orig_total": 25,
+      "annulled": 6,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "História": {
+      "hits": 16,
+      "total": 22,
+      "orig_hits": 16,
+      "orig_total": 25,
+      "annulled": 3,
+      "annulled_hit": 0,
+      "score": 7.27,
+      "weight": 1.0
+     },
+     "Geografia": {
+      "hits": 6,
+      "total": 6,
+      "orig_hits": 13,
+      "orig_total": 13,
+      "annulled": 7,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 37,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 17,
+     "hits": 8,
+     "annulled": 11,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Biologia",
+     "total": 5,
+     "hits": 1,
+     "annulled": 3,
+     "annulled_hit": 1,
+     "weight": 3
+    },
+    {
+     "subject": "Geografia",
+     "total": 12,
+     "hits": 2,
+     "annulled": 4,
+     "annulled_hit": 2,
+     "weight": 1
+    },
+    {
+     "subject": "Química",
+     "total": 3,
+     "hits": 3,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 33,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 8,
+     "hits": 6,
+     "annulled": 5,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Química",
+     "total": 11,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Biologia",
+     "total": 14,
+     "hits": 7,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 10,
+    "scale": 28,
+    "annulled": 5,
+    "score10": 3.57,
+    "subjects": {
+     "Matemática": {
+      "hits": 3,
+      "total": 3,
+      "orig_hits": 6,
+      "orig_total": 8,
+      "annulled": 5,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Química": {
+      "hits": 0,
+      "total": 11,
+      "orig_hits": 0,
+      "orig_total": 11,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Biologia": {
+      "hits": 7,
+      "total": 14,
+      "orig_hits": 7,
+      "orig_total": 14,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 5.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 20,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 16,
+     "hits": 11,
+     "annulled": 13,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Filosofia",
+     "total": 4,
+     "hits": 2,
+     "annulled": 3,
+     "annulled_hit": 2,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 11,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 10,
+     "hits": 3,
+     "annulled": 8,
+     "annulled_hit": 1,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (10) precisa ser igual ao máximo de questões da prova (11)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 29,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 2,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 2
+    },
+    {
+     "subject": "Química",
+     "total": 5,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "História",
+     "total": 6,
+     "hits": 0,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Geografia",
+     "total": 16,
+     "hits": 9,
+     "annulled": 7,
+     "annulled_hit": 2,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Inglês: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "  ",
+   "maxQ": 51,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 10,
+     "hits": 7,
+     "annulled": 9,
+     "annulled_hit": 7,
+     "weight": 3
+    },
+    {
+     "subject": "Biologia",
+     "total": 1,
+     "hits": 1,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Inglês",
+     "total": 18,
+     "hits": 7,
+     "annulled": 5,
+     "annulled_hit": 5,
+     "weight": 1
+    },
+    {
+     "subject": "Português",
+     "total": 21,
+     "hits": 7,
+     "annulled": 14,
+     "annulled_hit": 5,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 35,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 13,
+     "hits": 6,
+     "annulled": 10,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Redação",
+     "total": 22,
+     "hits": 13,
+     "annulled": 17,
+     "annulled_hit": 10,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 32,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 17,
+     "hits": 15,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 2
+    },
+    {
+     "subject": "Português",
+     "total": 4,
+     "hits": 2,
+     "annulled": 4,
+     "annulled_hit": 2,
+     "weight": 3
+    },
+    {
+     "subject": "Geografia",
+     "total": 7,
+     "hits": 2,
+     "annulled": 3,
+     "annulled_hit": 2,
+     "weight": 3
+    },
+    {
+     "subject": "Biologia",
+     "total": 4,
+     "hits": 1,
+     "annulled": 3,
+     "annulled_hit": 1,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "error": "Português: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "  ",
+   "maxQ": 25,
+   "rows": [
+    {
+     "subject": "História",
+     "total": 24,
+     "hits": 9,
+     "annulled": 15,
+     "annulled_hit": 5,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 43,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 25,
+     "hits": 20,
+     "annulled": 5,
+     "annulled_hit": 3,
+     "weight": 3
+    },
+    {
+     "subject": "Matemática",
+     "total": 4,
+     "hits": 2,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Biologia",
+     "total": 13,
+     "hits": 0,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (42) precisa ser igual ao máximo de questões da prova (43)."
+  },
+  {
+   "name": "  ",
+   "maxQ": 15,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 15,
+     "hits": 10,
+     "annulled": 5,
+     "annulled_hit": 3,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 28,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 20,
+     "hits": 0,
+     "annulled": 20,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Matemática",
+     "total": 8,
+     "hits": 4,
+     "annulled": 5,
+     "annulled_hit": 3,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Biologia: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 13,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 13,
+     "hits": 8,
+     "annulled": 4,
+     "annulled_hit": 4,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 4,
+    "scale": 9,
+    "annulled": 4,
+    "score10": 4.44,
+    "subjects": {
+     "Física": {
+      "hits": 4,
+      "total": 9,
+      "orig_hits": 8,
+      "orig_total": 13,
+      "annulled": 4,
+      "annulled_hit": 4,
+      "score": 4.44,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 15,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 1,
+     "hits": 1,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Redação",
+     "total": 14,
+     "hits": 1,
+     "annulled": 3,
+     "annulled_hit": 1,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 44,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 17,
+     "hits": 15,
+     "annulled": 15,
+     "annulled_hit": 9,
+     "weight": 2
+    },
+    {
+     "subject": "Química",
+     "total": 25,
+     "hits": 17,
+     "annulled": 17,
+     "annulled_hit": 9,
+     "weight": 1
+    },
+    {
+     "subject": "Português",
+     "total": 1,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (43) precisa ser igual ao máximo de questões da prova (44)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 11,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 2,
+     "hits": 2,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Física",
+     "total": 9,
+     "hits": 0,
+     "annulled": 3,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 2,
+    "scale": 8,
+    "annulled": 3,
+    "score10": 2.5,
+    "subjects": {
+     "Geografia": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 2,
+      "orig_total": 2,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Física": {
+      "hits": 0,
+      "total": 6,
+      "orig_hits": 0,
+      "orig_total": 9,
+      "annulled": 3,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 68,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 24,
+     "hits": 16,
+     "annulled": 10,
+     "annulled_hit": 6,
+     "weight": 2
+    },
+    {
+     "subject": "Geografia",
+     "total": 22,
+     "hits": 20,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 0.5
+    },
+    {
+     "subject": "Inglês",
+     "total": 21,
+     "hits": 2,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 29,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 10,
+     "hits": 10,
+     "annulled": 7,
+     "annulled_hit": 6,
+     "weight": 0.5
+    },
+    {
+     "subject": "Física",
+     "total": 7,
+     "hits": 0,
+     "annulled": 3,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Biologia",
+     "total": 11,
+     "hits": 5,
+     "annulled": 2,
+     "annulled_hit": 2,
+     "weight": 1
+    },
+    {
+     "subject": "Redação",
+     "total": 1,
+     "hits": 1,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "error": "Redação: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "  ",
+   "maxQ": 21,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 10,
+     "hits": 9,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "História",
+     "total": 11,
+     "hits": 0,
+     "annulled": 5,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 28,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 3,
+     "hits": 3,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Matemática",
+     "total": 25,
+     "hits": 20,
+     "annulled": 12,
+     "annulled_hit": 1,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 24,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 13,
+     "hits": 11,
+     "annulled": 6,
+     "annulled_hit": 3,
+     "weight": 0.5
+    },
+    {
+     "subject": "Biologia",
+     "total": 11,
+     "hits": 8,
+     "annulled": 4,
+     "annulled_hit": 2,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 13,
+    "scale": 14,
+    "annulled": 10,
+    "score10": 9.29,
+    "subjects": {
+     "Física": {
+      "hits": 7,
+      "total": 7,
+      "orig_hits": 11,
+      "orig_total": 13,
+      "annulled": 6,
+      "annulled_hit": 3,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Biologia": {
+      "hits": 6,
+      "total": 7,
+      "orig_hits": 8,
+      "orig_total": 11,
+      "annulled": 4,
+      "annulled_hit": 2,
+      "score": 8.57,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 32,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 15,
+     "hits": 6,
+     "annulled": 6,
+     "annulled_hit": 5,
+     "weight": 2
+    },
+    {
+     "subject": "Geografia",
+     "total": 17,
+     "hits": 4,
+     "annulled": 14,
+     "annulled_hit": 4,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 12,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 7,
+     "hits": 5,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Química",
+     "total": 4,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (11) precisa ser igual ao máximo de questões da prova (12)."
+  },
+  {
+   "name": "  ",
+   "maxQ": 19,
+   "rows": [
+    {
+     "subject": "Redação",
+     "total": 19,
+     "hits": 15,
+     "annulled": 10,
+     "annulled_hit": 3,
+     "weight": 0.5
+    }
+   ],
+   "weighted": false,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 13,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 13,
+     "hits": 9,
+     "annulled": 8,
+     "annulled_hit": 5,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 42,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 24,
+     "hits": 16,
+     "annulled": 11,
+     "annulled_hit": 5,
+     "weight": 2
+    },
+    {
+     "subject": "Química",
+     "total": 6,
+     "hits": 5,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Filosofia",
+     "total": 12,
+     "hits": 3,
+     "annulled": 4,
+     "annulled_hit": 1,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 26,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 16,
+     "hits": 16,
+     "annulled": 8,
+     "annulled_hit": 8,
+     "weight": 1
+    },
+    {
+     "subject": "Português",
+     "total": 10,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 8,
+    "scale": 18,
+    "annulled": 8,
+    "score10": 4.44,
+    "subjects": {
+     "Física": {
+      "hits": 8,
+      "total": 8,
+      "orig_hits": 16,
+      "orig_total": 16,
+      "annulled": 8,
+      "annulled_hit": 8,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Português": {
+      "hits": 0,
+      "total": 10,
+      "orig_hits": 0,
+      "orig_total": 10,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 56,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 4,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Inglês",
+     "total": 4,
+     "hits": 1,
+     "annulled": 2,
+     "annulled_hit": 1,
+     "weight": 3
+    },
+    {
+     "subject": "Matemática",
+     "total": 24,
+     "hits": 16,
+     "annulled": 6,
+     "annulled_hit": 5,
+     "weight": 0.5
+    },
+    {
+     "subject": "Redação",
+     "total": 24,
+     "hits": 20,
+     "annulled": 13,
+     "annulled_hit": 8,
+     "weight": 1
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 22,
+    "scale": 34,
+    "annulled": 22,
+    "score10": 6.47,
+    "subjects": {
+     "Química": {
+      "hits": 0,
+      "total": 3,
+      "orig_hits": 0,
+      "orig_total": 4,
+      "annulled": 1,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Inglês": {
+      "hits": 0,
+      "total": 2,
+      "orig_hits": 1,
+      "orig_total": 4,
+      "annulled": 2,
+      "annulled_hit": 1,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Matemática": {
+      "hits": 11,
+      "total": 18,
+      "orig_hits": 16,
+      "orig_total": 24,
+      "annulled": 6,
+      "annulled_hit": 5,
+      "score": 6.11,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 11,
+      "total": 11,
+      "orig_hits": 20,
+      "orig_total": 24,
+      "annulled": 13,
+      "annulled_hit": 8,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 1,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 1,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 22,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 22,
+     "hits": 10,
+     "annulled": 13,
+     "annulled_hit": 6,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 4,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 4,
+     "hits": 2,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 2,
+    "scale": 3,
+    "annulled": 1,
+    "score10": 6.67,
+    "subjects": {
+     "Geografia": {
+      "hits": 2,
+      "total": 3,
+      "orig_hits": 2,
+      "orig_total": 4,
+      "annulled": 1,
+      "annulled_hit": 0,
+      "score": 6.67,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 10,
+   "rows": [
+    {
+     "subject": "Inglês",
+     "total": 5,
+     "hits": 5,
+     "annulled": 3,
+     "annulled_hit": 2,
+     "weight": 3
+    },
+    {
+     "subject": "História",
+     "total": 5,
+     "hits": 2,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 3,
+    "scale": 6,
+    "annulled": 4,
+    "score10": 8.12,
+    "subjects": {
+     "Inglês": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 5,
+      "orig_total": 5,
+      "annulled": 3,
+      "annulled_hit": 2,
+      "score": 10.0,
+      "weight": 3.0
+     },
+     "História": {
+      "hits": 1,
+      "total": 4,
+      "orig_hits": 2,
+      "orig_total": 5,
+      "annulled": 1,
+      "annulled_hit": 1,
+      "score": 2.5,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 10,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 9,
+     "hits": 6,
+     "annulled": 7,
+     "annulled_hit": 1,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (9) precisa ser igual ao máximo de questões da prova (10)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 64,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 15,
+     "hits": 3,
+     "annulled": 7,
+     "annulled_hit": 2,
+     "weight": 1
+    },
+    {
+     "subject": "História",
+     "total": 25,
+     "hits": 12,
+     "annulled": 11,
+     "annulled_hit": 11,
+     "weight": 0.5
+    },
+    {
+     "subject": "Matemática",
+     "total": 1,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Inglês",
+     "total": 23,
+     "hits": 7,
+     "annulled": 21,
+     "annulled_hit": 2,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 4,
+    "scale": 25,
+    "annulled": 39,
+    "score10": 3.32,
+    "subjects": {
+     "Biologia": {
+      "hits": 1,
+      "total": 8,
+      "orig_hits": 3,
+      "orig_total": 15,
+      "annulled": 7,
+      "annulled_hit": 2,
+      "score": 1.25,
+      "weight": 1.0
+     },
+     "História": {
+      "hits": 1,
+      "total": 14,
+      "orig_hits": 12,
+      "orig_total": 25,
+      "annulled": 11,
+      "annulled_hit": 11,
+      "score": 0.71,
+      "weight": 0.5
+     },
+     "Matemática": {
+      "hits": 0,
+      "total": 1,
+      "orig_hits": 0,
+      "orig_total": 1,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Inglês": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 7,
+      "orig_total": 23,
+      "annulled": 21,
+      "annulled_hit": 2,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 63,
+   "rows": [
+    {
+     "subject": "História",
+     "total": 25,
+     "hits": 17,
+     "annulled": 5,
+     "annulled_hit": 4,
+     "weight": 1
+    },
+    {
+     "subject": "Física",
+     "total": 23,
+     "hits": 10,
+     "annulled": 15,
+     "annulled_hit": 4,
+     "weight": 0.5
+    },
+    {
+     "subject": "Redação",
+     "total": 14,
+     "hits": 8,
+     "annulled": 14,
+     "annulled_hit": 3,
+     "weight": 2
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (62) precisa ser igual ao máximo de questões da prova (63)."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 32,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 11,
+     "hits": 5,
+     "annulled": 3,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Geografia",
+     "total": 20,
+     "hits": 20,
+     "annulled": 8,
+     "annulled_hit": 7,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (31) precisa ser igual ao máximo de questões da prova (32)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 57,
+   "rows": [
+    {
+     "subject": "Física",
+     "total": 24,
+     "hits": 17,
+     "annulled": 16,
+     "annulled_hit": 6,
+     "weight": 3
+    },
+    {
+     "subject": "Português",
+     "total": 4,
+     "hits": 3,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 0.5
+    },
+    {
+     "subject": "Matemática",
+     "total": 18,
+     "hits": 3,
+     "annulled": 10,
+     "annulled_hit": 2,
+     "weight": 1
+    },
+    {
+     "subject": "História",
+     "total": 10,
+     "hits": 0,
+     "annulled": 6,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (56) precisa ser igual ao máximo de questões da prova (57)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 15,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 15,
+     "hits": 3,
+     "annulled": 13,
+     "annulled_hit": 3,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 0,
+    "scale": 2,
+    "annulled": 13,
+    "score10": 0.0,
+    "subjects": {
+     "Matemática": {
+      "hits": 0,
+      "total": 2,
+      "orig_hits": 3,
+      "orig_total": 15,
+      "annulled": 13,
+      "annulled_hit": 3,
+      "score": 0.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 14,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 14,
+     "hits": 14,
+     "annulled": 8,
+     "annulled_hit": 3,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 6,
+    "scale": 6,
+    "annulled": 8,
+    "score10": 10.0,
+    "subjects": {
+     "Biologia": {
+      "hits": 6,
+      "total": 6,
+      "orig_hits": 14,
+      "orig_total": 14,
+      "annulled": 8,
+      "annulled_hit": 3,
+      "score": 10.0,
+      "weight": 0.5
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 56,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 15,
+     "hits": 8,
+     "annulled": 10,
+     "annulled_hit": 1,
+     "weight": 2
+    },
+    {
+     "subject": "Física",
+     "total": 25,
+     "hits": 15,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 0.5
+    },
+    {
+     "subject": "Português",
+     "total": 8,
+     "hits": 0,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Filosofia",
+     "total": 8,
+     "hits": 2,
+     "annulled": 4,
+     "annulled_hit": 2,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 40,
+   "rows": [
+    {
+     "subject": "Filosofia",
+     "total": 15,
+     "hits": 6,
+     "annulled": 15,
+     "annulled_hit": 1,
+     "weight": 3
+    },
+    {
+     "subject": "Física",
+     "total": 25,
+     "hits": 22,
+     "annulled": 12,
+     "annulled_hit": 10,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "error": "Filosofia: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 63,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 20,
+     "hits": 11,
+     "annulled": 10,
+     "annulled_hit": 7,
+     "weight": 0.5
+    },
+    {
+     "subject": "História",
+     "total": 8,
+     "hits": 8,
+     "annulled": 6,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "Redação",
+     "total": 10,
+     "hits": 10,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Matemática",
+     "total": 25,
+     "hits": 7,
+     "annulled": 6,
+     "annulled_hit": 2,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 17,
+    "scale": 37,
+    "annulled": 26,
+    "score10": 6.65,
+    "subjects": {
+     "Biologia": {
+      "hits": 4,
+      "total": 10,
+      "orig_hits": 11,
+      "orig_total": 20,
+      "annulled": 10,
+      "annulled_hit": 7,
+      "score": 4.0,
+      "weight": 0.5
+     },
+     "História": {
+      "hits": 2,
+      "total": 2,
+      "orig_hits": 8,
+      "orig_total": 8,
+      "annulled": 6,
+      "annulled_hit": 1,
+      "score": 10.0,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 6,
+      "total": 6,
+      "orig_hits": 10,
+      "orig_total": 10,
+      "annulled": 4,
+      "annulled_hit": 0,
+      "score": 10.0,
+      "weight": 3.0
+     },
+     "Matemática": {
+      "hits": 5,
+      "total": 19,
+      "orig_hits": 7,
+      "orig_total": 25,
+      "annulled": 6,
+      "annulled_hit": 2,
+      "score": 2.63,
+      "weight": 3.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 53,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 9,
+     "hits": 3,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Biologia",
+     "total": 20,
+     "hits": 12,
+     "annulled": 3,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Redação",
+     "total": 23,
+     "hits": 5,
+     "annulled": 9,
+     "annulled_hit": 4,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (52) precisa ser igual ao máximo de questões da prova (53)."
+  },
+  {
+   "name": "  ",
+   "maxQ": 36,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 13,
+     "hits": 7,
+     "annulled": 3,
+     "annulled_hit": 3,
+     "weight": 3
+    },
+    {
+     "subject": "Inglês",
+     "total": 23,
+     "hits": 5,
+     "annulled": 4,
+     "annulled_hit": 1,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 36,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 22,
+     "hits": 9,
+     "annulled": 7,
+     "annulled_hit": 4,
+     "weight": 2
+    },
+    {
+     "subject": "Redação",
+     "total": 8,
+     "hits": 7,
+     "annulled": 4,
+     "annulled_hit": 4,
+     "weight": 3
+    },
+    {
+     "subject": "História",
+     "total": 6,
+     "hits": 3,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 2
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 11,
+    "scale": 25,
+    "annulled": 11,
+    "score10": 4.4,
+    "subjects": {
+     "Geografia": {
+      "hits": 5,
+      "total": 15,
+      "orig_hits": 9,
+      "orig_total": 22,
+      "annulled": 7,
+      "annulled_hit": 4,
+      "score": 3.33,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 3,
+      "total": 4,
+      "orig_hits": 7,
+      "orig_total": 8,
+      "annulled": 4,
+      "annulled_hit": 4,
+      "score": 7.5,
+      "weight": 1.0
+     },
+     "História": {
+      "hits": 3,
+      "total": 6,
+      "orig_hits": 3,
+      "orig_total": 6,
+      "annulled": 0,
+      "annulled_hit": 0,
+      "score": 5.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "  ",
+   "maxQ": 45,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 14,
+     "hits": 1,
+     "annulled": 6,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Química",
+     "total": 14,
+     "hits": 11,
+     "annulled": 11,
+     "annulled_hit": 3,
+     "weight": 1
+    },
+    {
+     "subject": "Física",
+     "total": 17,
+     "hits": 0,
+     "annulled": 13,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "  ",
+   "maxQ": 45,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 23,
+     "hits": 10,
+     "annulled": 12,
+     "annulled_hit": 1,
+     "weight": 1
+    },
+    {
+     "subject": "História",
+     "total": 7,
+     "hits": 0,
+     "annulled": 6,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Inglês",
+     "total": 6,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Redação",
+     "total": 9,
+     "hits": 5,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 10,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 8,
+     "hits": 3,
+     "annulled": 8,
+     "annulled_hit": 2,
+     "weight": 2
+    },
+    {
+     "subject": "Filosofia",
+     "total": 2,
+     "hits": 0,
+     "annulled": 0,
+     "annulled_hit": 0,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "error": "Português: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 34,
+   "rows": [
+    {
+     "subject": "História",
+     "total": 24,
+     "hits": 0,
+     "annulled": 5,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Redação",
+     "total": 10,
+     "hits": 1,
+     "annulled": 8,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "expected": {
+    "hits": 1,
+    "scale": 21,
+    "annulled": 13,
+    "score10": 1.67,
+    "subjects": {
+     "História": {
+      "hits": 0,
+      "total": 19,
+      "orig_hits": 0,
+      "orig_total": 24,
+      "annulled": 5,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 1,
+      "total": 2,
+      "orig_hits": 1,
+      "orig_total": 10,
+      "annulled": 8,
+      "annulled_hit": 0,
+      "score": 5.0,
+      "weight": 0.5
+     }
+    }
+   }
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 29,
+   "rows": [
+    {
+     "subject": "Química",
+     "total": 1,
+     "hits": 1,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Redação",
+     "total": 6,
+     "hits": 4,
+     "annulled": 2,
+     "annulled_hit": 0,
+     "weight": 3
+    },
+    {
+     "subject": "Biologia",
+     "total": 19,
+     "hits": 0,
+     "annulled": 18,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Inglês",
+     "total": 2,
+     "hits": 1,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 1
+    }
+   ],
+   "weighted": true,
+   "error": "A soma das questões das matérias (28) precisa ser igual ao máximo de questões da prova (29)."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 38,
+   "rows": [
+    {
+     "subject": "Geografia",
+     "total": 23,
+     "hits": 16,
+     "annulled": 17,
+     "annulled_hit": 8,
+     "weight": 3
+    },
+    {
+     "subject": "Matemática",
+     "total": 15,
+     "hits": 6,
+     "annulled": 15,
+     "annulled_hit": 4,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Matemática: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 29,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 22,
+     "hits": 3,
+     "annulled": 22,
+     "annulled_hit": 2,
+     "weight": 0.5
+    },
+    {
+     "subject": "Biologia",
+     "total": 7,
+     "hits": 7,
+     "annulled": 7,
+     "annulled_hit": 7,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Matemática: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "  ",
+   "maxQ": 13,
+   "rows": [
+    {
+     "subject": "História",
+     "total": 7,
+     "hits": 1,
+     "annulled": 4,
+     "annulled_hit": 0,
+     "weight": 2
+    },
+    {
+     "subject": "Filosofia",
+     "total": 6,
+     "hits": 0,
+     "annulled": 5,
+     "annulled_hit": 0,
+     "weight": 0.5
+    }
+   ],
+   "weighted": true,
+   "error": "Informe o nome da prova."
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 26,
+   "rows": [
+    {
+     "subject": "Matemática",
+     "total": 5,
+     "hits": 0,
+     "annulled": 1,
+     "annulled_hit": 0,
+     "weight": 1
+    },
+    {
+     "subject": "Redação",
+     "total": 21,
+     "hits": 19,
+     "annulled": 9,
+     "annulled_hit": 5,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "expected": {
+    "hits": 12,
+    "scale": 16,
+    "annulled": 10,
+    "score10": 7.5,
+    "subjects": {
+     "Matemática": {
+      "hits": 0,
+      "total": 4,
+      "orig_hits": 0,
+      "orig_total": 5,
+      "annulled": 1,
+      "annulled_hit": 0,
+      "score": 0.0,
+      "weight": 1.0
+     },
+     "Redação": {
+      "hits": 12,
+      "total": 12,
+      "orig_hits": 19,
+      "orig_total": 21,
+      "annulled": 9,
+      "annulled_hit": 5,
+      "score": 10.0,
+      "weight": 1.0
+     }
+    }
+   }
+  },
+  {
+   "name": "Simulado ENEM",
+   "maxQ": 13,
+   "rows": [
+    {
+     "subject": "Português",
+     "total": 13,
+     "hits": 13,
+     "annulled": 13,
+     "annulled_hit": 10,
+     "weight": 3
+    }
+   ],
+   "weighted": true,
+   "error": "Português: todas as questões foram anuladas — remova a matéria do simulado."
+  },
+  {
+   "name": "Prova 1",
+   "maxQ": 21,
+   "rows": [
+    {
+     "subject": "Biologia",
+     "total": 14,
+     "hits": 7,
+     "annulled": 14,
+     "annulled_hit": 5,
+     "weight": 3
+    },
+    {
+     "subject": "História",
+     "total": 7,
+     "hits": 2,
+     "annulled": 1,
+     "annulled_hit": 1,
+     "weight": 3
+    }
+   ],
+   "weighted": false,
+   "error": "Biologia: todas as questões foram anuladas — remova a matéria do simulado."
+  }
+ ]
+}
